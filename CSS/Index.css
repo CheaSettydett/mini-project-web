@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans';
-    font-style: normal;
     background-color: #F5F5F5!important;
 }
 
@@ -8,6 +7,15 @@ body {
     position: sticky;
     left: 0;
     top: 0;
+}
+#nav a{
+   
+    color: #090076;
+    cursor: pointer;
+    transition:all 0.3s ease;   
+}
+#nav a:hover {
+  text-decoration:underline;
 }
 
 #istad {
@@ -23,10 +31,6 @@ body {
     padding: 20px;
 }
 
-#home {
-    color: black;
-    text-decoration-line: underline;
-}
 
 #longin {
     box-sizing: border-box;
@@ -194,7 +198,7 @@ body {
 
 .nav-pills {
     background: rgba(160, 157, 157, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 10px;
 }
 
@@ -202,11 +206,11 @@ body {
     box-sizing: border-box;
     width: 263.8px;
     height: 48.39px;
-    border: 1px solid #201F1F;
+    /* border: 1px solid #201F1F; */
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    background: #A09D9D 20%;
+    /* background: #A09D9D 20%; */
 }
 
 .badge {
@@ -376,6 +380,7 @@ body {
 
 
 #caption {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
